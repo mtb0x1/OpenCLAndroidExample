@@ -1,4 +1,0 @@
-/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/arm64-v8a/CMakeFiles/openclandroidexample.dir
-/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/arm64-v8a/CMakeFiles/engine.dir
-/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/arm64-v8a/CMakeFiles/edit_cache.dir
-/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/arm64-v8a/CMakeFiles/rebuild_cache.dir
