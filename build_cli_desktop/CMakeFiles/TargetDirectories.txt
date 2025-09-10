@@ -1,5 +1,0 @@
-/media/msist/data/OpenCLAndroidExample_yes/build_cli_desktop/CMakeFiles/openclandroidexample.dir
-/media/msist/data/OpenCLAndroidExample_yes/build_cli_desktop/CMakeFiles/engine.dir
-/media/msist/data/OpenCLAndroidExample_yes/build_cli_desktop/CMakeFiles/openclandroidexample_cli.dir
-/media/msist/data/OpenCLAndroidExample_yes/build_cli_desktop/CMakeFiles/edit_cache.dir
-/media/msist/data/OpenCLAndroidExample_yes/build_cli_desktop/CMakeFiles/rebuild_cache.dir

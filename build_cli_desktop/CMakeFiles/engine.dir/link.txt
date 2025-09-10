@@ -1,2 +1,0 @@
-/home/msist/apps/llvm-project/build/bin/llvm-ar qc libengine.a "CMakeFiles/engine.dir/native-lib.cpp.o"
-/home/msist/apps/llvm-project/build/bin/llvm-ranlib libengine.a

@@ -1,1 +1,0 @@
-/home/msist/apps/llvm-project/build/bin/clang++ -O3 -DNDEBUG CMakeFiles/openclandroidexample_cli.dir/main.cpp.o -o openclandroidexample_cli  -Wl,-rpath,/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL /media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL/libOpenCLx86_64.so libengine.a 

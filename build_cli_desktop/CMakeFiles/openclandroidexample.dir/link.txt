@@ -1,1 +1,0 @@
-/home/msist/apps/llvm-project/build/bin/clang++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libopenclandroidexample.so -o libopenclandroidexample.so "CMakeFiles/openclandroidexample.dir/native-lib.cpp.o"  -Wl,-rpath,/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL /media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL/libOpenCLx86_64.so 
