@@ -1,0 +1,46 @@
+{
+  "buildFiles": [
+    "/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/msist/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/msist/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "engine::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "engine",
+      "output": "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/armeabi-v7a/libengine.a"
+    },
+    "openclandroidexample::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "openclandroidexample",
+      "output": "/media/msist/data/OpenCLAndroidExample_yes/app/build/intermediates/cxx/RelWithDebInfo/52513t4d/obj/armeabi-v7a/libopenclandroidexample.so",
+      "runtimeFiles": [
+        "/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL/libOpenCL32.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/msist/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/msist/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

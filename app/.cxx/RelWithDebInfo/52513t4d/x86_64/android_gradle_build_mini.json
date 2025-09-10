@@ -1,0 +1,35 @@
+{
+  "buildFiles": [
+    "/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/msist/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/msist/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "openclandroidexample::@6890427a1f51a3e7e1df": {
+      "artifactName": "openclandroidexample",
+      "abi": "x86_64",
+      "output": "/media/msist/data/OpenCLAndroidExample_yes/app/build/intermediates/cxx/RelWithDebInfo/52513t4d/obj/x86_64/libopenclandroidexample.so",
+      "runtimeFiles": [
+        "/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL/libOpenCLx86_64.so"
+      ]
+    },
+    "engine::@6890427a1f51a3e7e1df": {
+      "artifactName": "engine",
+      "abi": "x86_64",
+      "output": "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/x86_64/libengine.a",
+      "runtimeFiles": []
+    }
+  }
+}

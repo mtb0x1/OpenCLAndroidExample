@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #f9f506;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-50">
+<div class="relative flex size-full min-h-screen flex-col justify-between group/design-root overflow-x-hidden" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="flex flex-col">
+<header class="flex items-center p-4 pb-2 justify-between">
+<button class="text-gray-800 flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-200">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-gray-900 text-lg font-bold leading-tight tracking-tight flex-1 text-center pr-10">Result</h1>
+</header>
+<main class="flex-1 px-4 py-8">
+<div class="bg-white rounded-2xl shadow-sm p-6">
+<div class="flex flex-col items-center justify-center text-center">
+<div class="p-4 bg-[var(--primary-color)] rounded-full mb-4">
+<svg class="text-gray-900" fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224.23,103.82,143.6,56.1a8,8,0,0,0-7.2,0L57.77,103.82a8,8,0,0,0-4,7L53,208a8,8,0,0,0,8,8h88a8,8,0,0,0,8-8V176h32a8,8,0,0,0,8-8V110.8A8,8,0,0,0,224.23,103.82ZM69,112.5,138,72.7l69,39.8V160H157v32H69ZM157,200v-8h-8v8H70.36l-.6-32H149v-8h8v8h13.25L157,200Z"></path>
+</svg>
+</div>
+<h2 class="text-gray-900 text-2xl font-bold leading-tight tracking-tight">Operation Successful</h2>
+<p class="text-gray-600 text-base leading-normal mt-2">The resulting matrix is shown below.</p>
+</div>
+<div class="mt-8 bg-gray-100 rounded-xl p-4 text-center font-mono text-lg text-gray-800">
+<pre>[ 1  0  0 ]
+[ 0  1  0 ]
+[ 0  0  1 ]
+              </pre>
+</div>
+<div class="mt-6 bg-red-50 border border-red-200 rounded-2xl p-6">
+<div class="flex flex-col items-center justify-center text-center">
+<div class="p-3 bg-red-100 rounded-full mb-4">
+<svg class="text-red-600" fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-40a8,8,0,0,1-8-8V128a8,8,0,0,1,16,0v40A8,8,0,0,1,120,176Zm-8-72a8,8,0,1,1,8-8A8,8,0,0,1,112,104Z"></path>
+</svg>
+</div>
+<h2 class="text-red-800 text-xl font-bold leading-tight tracking-tight">Operation Failed</h2>
+<p class="text-red-700 text-base leading-normal mt-2">The matrices have incompatible dimensions for this operation. Please check your inputs.</p>
+</div>
+</div>
+</div>
+<div class="mt-4 bg-red-50 border border-red-200 rounded-2xl p-6 hidden">
+<div class="flex flex-col items-center justify-center text-center">
+<div class="p-3 bg-red-100 rounded-full mb-4">
+<svg class="text-red-600" fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-40a8,8,0,0,1-8-8V128a8,8,0,0,1,16,0v40A8,8,0,0,1,120,176Zm-8-72a8,8,0,1,1,8-8A8,8,0,0,1,112,104Z"></path></svg>
+</div>
+<h2 class="text-red-800 text-2xl font-bold leading-tight tracking-tight">Operation Failed</h2>
+<p class="text-red-700 text-base leading-normal mt-2">Matrix dimensions do not match for this operation.</p>
+</div>
+</div>
+</main>
+</div>
+<footer class="sticky bottom-0 bg-white/80 backdrop-blur-sm border-t border-gray-200">
+<nav class="flex justify-around p-2">
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-gray-500 hover:text-[var(--primary-color)] transition-colors rounded-full py-2" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+</svg>
+<p class="text-xs font-medium tracking-wide">Input</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-[var(--primary-color)] font-semibold bg-yellow-50 rounded-full py-2" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,120v16a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V120a8,8,0,0,1,8-8H216A8,8,0,0,1,224,120Zm-8,56H40a8,8,0,0,0-8,8v16a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V184A8,8,0,0,0,216,176Zm0-128H40a8,8,0,0,0-8,8V72a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48Z"></path>
+</svg>
+<p class="text-xs font-medium tracking-wide">Results</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-gray-500 hover:text-[var(--primary-color)] transition-colors rounded-full py-2" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"></path>
+</svg>
+<p class="text-xs font-medium tracking-wide">History</p>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>

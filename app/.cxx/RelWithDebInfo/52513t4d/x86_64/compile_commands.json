@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/x86_64",
+  "command": "/home/msist/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android35 --sysroot=/home/msist/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dopenclandroidexample_EXPORTS -I/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D__BIONIC_NO_PAGE_SIZE_MACRO -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles/openclandroidexample.dir/native-lib.cpp.o -c /media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/native-lib.cpp",
+  "file": "/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/native-lib.cpp"
+},
+{
+  "directory": "/media/msist/data/OpenCLAndroidExample_yes/app/.cxx/RelWithDebInfo/52513t4d/x86_64",
+  "command": "/home/msist/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android35 --sysroot=/home/msist/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/OpenCL -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D__BIONIC_NO_PAGE_SIZE_MACRO -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles/engine.dir/native-lib.cpp.o -c /media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/native-lib.cpp",
+  "file": "/media/msist/data/OpenCLAndroidExample_yes/app/src/main/cpp/native-lib.cpp"
+}
+]

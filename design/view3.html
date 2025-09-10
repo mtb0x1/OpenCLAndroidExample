@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #f9f506;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-100">
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="flex flex-col flex-1">
+<header class="flex items-center p-4 pb-2 justify-between bg-white shadow-sm">
+<button class="text-gray-800 flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-200">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+</svg>
+</button>
+<h1 class="text-gray-900 text-lg font-bold leading-tight tracking-tight flex-1 text-center pr-10">Result</h1>
+</header>
+<main class="flex-1 px-4 py-8">
+<div class="bg-white rounded-2xl shadow-sm p-6">
+<h2 class="text-gray-900 text-xl font-bold leading-tight tracking-tight mb-2">Resulting Matrix</h2>
+<div class="overflow-x-auto">
+<table class="w-full text-center font-mono text-lg text-gray-800 border-collapse">
+<tbody>
+<tr class="border-b border-gray-200">
+<td class="p-3">1</td>
+<td class="p-3">0</td>
+<td class="p-3">0</td>
+</tr>
+<tr class="border-b border-gray-200">
+<td class="p-3">0</td>
+<td class="p-3">1</td>
+<td class="p-3">0</td>
+</tr>
+<tr>
+<td class="p-3">0</td>
+<td class="p-3">0</td>
+<td class="p-3">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="mt-6 bg-red-50 border border-red-200 rounded-2xl p-6">
+<div class="flex flex-col items-center justify-center text-center">
+<div class="p-3 bg-red-100 rounded-full mb-4">
+<svg class="text-red-600" fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-40a8,8,0,0,1-8-8V128a8,8,0,0,1,16,0v40A8,8,0,0,1,120,176Zm-8-72a8,8,0,1,1,8-8A8,8,0,0,1,112,104Z"></path>
+</svg>
+</div>
+<h2 class="text-red-800 text-xl font-bold leading-tight tracking-tight">Operation Failed</h2>
+<p class="text-red-700 text-base leading-normal mt-2">The matrices have incompatible dimensions for this operation. Please check your inputs.</p>
+</div>
+</div>
+<div class="mt-8 flex flex-col gap-4">
+<button class="w-full text-center rounded-xl bg-gray-200 px-6 py-3.5 text-base font-bold text-gray-800 shadow-sm hover:bg-gray-300">Go Back</button>
+<button class="w-full text-center rounded-xl bg-[var(--primary-color)] px-6 py-3.5 text-base font-bold text-gray-900 shadow-sm hover:bg-yellow-400">Perform Another Operation</button>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>
